@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class BounceBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.gameObject.CompareTag("Ball"))
+        {
+            var force = collision.gameObject.GetComponent<Rigidbody2D>();
+            force.AddForce(Vector2.up, ForceMode2D.Impulse);
+        }
     }
 }
