@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EndTrigger : MonoBehaviour
 {
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         string countOfPoints = collision.gameObject.tag;
         if (countOfPoints == "0")
