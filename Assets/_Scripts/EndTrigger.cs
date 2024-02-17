@@ -11,37 +11,30 @@ public class EndTrigger : MonoBehaviour
         if (countOfPoints == "0")
         {
             Destroy(gameObject);
-            Debug.Log(0);
-            return;
         }
         else if (countOfPoints == "5")
         {
             Destroy(gameObject);
-            Debug.Log(5);
             GameData.score += 5;
         }
         else if (countOfPoints == "10")
         {
             Destroy(gameObject);
-            Debug.Log(10);
             GameData.score += 10;
         }
         else if (countOfPoints == "25")
         {
             Destroy(gameObject);
-            Debug.Log(25);
             GameData.score += 25;
         }
         else if (countOfPoints == "50")
         {
             Destroy(gameObject);
-            Debug.Log(50);
             GameData.score += 50;
         }
         else if (countOfPoints == "100")
         {
             Destroy(gameObject);
-            Debug.Log(100);
             GameData.score += 100;
         }
     }
