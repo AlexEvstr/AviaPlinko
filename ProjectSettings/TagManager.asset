@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Border
   - Ball
+  - 0
+  - 5
+  - 10
+  - 25
+  - 50
+  - 100
   layers:
   - Default
   - TransparentFX
