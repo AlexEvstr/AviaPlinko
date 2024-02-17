@@ -18,32 +18,39 @@ public class EndTrigger : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log(5);
-            //score += 5;
+            GameData.score += 5;
         }
         else if (countOfPoints == "10")
         {
             Destroy(gameObject);
             Debug.Log(10);
-            //score += 10;
+            GameData.score += 10;
         }
         else if (countOfPoints == "25")
         {
             Destroy(gameObject);
             Debug.Log(25);
-            //score += 25;
+            GameData.score += 25;
         }
         else if (countOfPoints == "50")
         {
             Destroy(gameObject);
             Debug.Log(50);
-            //score += 50;
+            GameData.score += 50;
         }
         else if (countOfPoints == "100")
         {
             Destroy(gameObject);
             Debug.Log(100);
-            //score += 100;
+            GameData.score += 100;
         }
+    }
 
+    private void Update()
+    {
+        if (transform.position.y < -7)
+        {
+            Destroy(gameObject);
+        }
     }
 }
