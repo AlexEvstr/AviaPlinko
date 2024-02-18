@@ -13,7 +13,7 @@ public class MenuPanel : MonoBehaviour
 
         /////////
         ///УДАЛИТЬ!!!
-        GameData.score = 1000;
+        GameData.score = 10000;
         /////////
 
 
