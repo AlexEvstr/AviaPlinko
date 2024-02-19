@@ -38,7 +38,7 @@ public class EndTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (transform.position.y < -7)
+        if (transform.position.x < -3 || transform.position.x > 3 || transform.position.y < -7)
         {
             Destroy(gameObject);
         }

@@ -9,15 +9,7 @@ public class MenuPanel : MonoBehaviour
 
     private void Start()
     {
-        //GameData.score = PlayerPrefs.GetInt("score", 0);
-
-        /////////
-        ///УДАЛИТЬ!!!
-        GameData.score = 10000;
-        /////////
-
-
-        Debug.Log(GameData.score);
+        GameData.score = PlayerPrefs.GetInt("score", 0);
     }
 
     public void StartGAme()
@@ -53,5 +45,10 @@ public class MenuPanel : MonoBehaviour
     public void BackToShopFromBalls()
     {
         _shopBallPanel.SetActive(false);
+    }
+
+    private void OnDestroy()
+    {
+        PlayerPrefs.SetInt("score", GameData.score);
     }
 }
