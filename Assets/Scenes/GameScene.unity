@@ -6617,6 +6617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e32b1cf1a59a4cb3b07061cb2a7275a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _clickSound: {fileID: 8300000, guid: 9ede665c6b5614f08bea67034f4dc5f7, type: 3}
   _pausePanel: {fileID: 854659020}
 --- !u!82 &549823377
 AudioSource:

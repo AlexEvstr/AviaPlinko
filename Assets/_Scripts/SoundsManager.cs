@@ -5,9 +5,22 @@ public class SoundsManager : MonoBehaviour
     [SerializeField] private GameObject _on;
     [SerializeField] private GameObject _off;
 
+    [SerializeField] private AudioClip _clickSound;
+    private AudioSource _audioSource;
+
     private void OnEnable()
     {
         LoadStatus();
+    }
+
+    private void Start()
+    {
+        _audioSource = gameObject.GetComponent<AudioSource>();
+    }
+
+    public void ClickButtonSound()
+    {
+        _audioSource.PlayOneShot(_clickSound);
     }
 
     private void LoadStatus()
@@ -28,6 +41,7 @@ public class SoundsManager : MonoBehaviour
         _off.SetActive(false);
         _on.SetActive(true);
         AudioListener.volume = 1;
+        SaveStatus();
     }
 
     public void SoundOff()
@@ -35,10 +49,6 @@ public class SoundsManager : MonoBehaviour
         _on.SetActive(false);
         _off.SetActive(true);
         AudioListener.volume = 0;
-    }
-
-    private void OnDisable()
-    {
         SaveStatus();
     }
 
