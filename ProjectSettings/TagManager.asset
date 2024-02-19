@@ -12,6 +12,7 @@ TagManager:
   - 25
   - 50
   - 100
+  - Manager
   layers:
   - Default
   - TransparentFX

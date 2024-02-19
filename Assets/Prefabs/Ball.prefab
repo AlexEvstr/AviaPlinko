@@ -161,3 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fbc34bfa2e9e4eb0ad0219efe5cea9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _endClip: {fileID: 8300000, guid: 0be230e2198ce482785dc1430d813c83, type: 3}
+  _endClipBad: {fileID: 8300000, guid: 692687ec69cd54b6d8642102211f85fc, type: 3}

@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class BounceBehavior : MonoBehaviour
 {
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _audioClip;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,6 +16,7 @@ public class BounceBehavior : MonoBehaviour
 
     private IEnumerator ChangeSize()
     {
+        _audioSource.PlayOneShot(_audioClip);
         transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
         yield return new WaitForSeconds(0.1f);
         transform.localScale = new Vector3(0.15f, 0.15f, 0.15f);
