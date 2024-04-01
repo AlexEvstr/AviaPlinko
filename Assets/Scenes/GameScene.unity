@@ -617,6 +617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &192187261
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -857,6 +858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &209312334
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -992,6 +994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &213804093
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1429,6 +1432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &271497113
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1781,6 +1785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &320440829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1916,6 +1921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &322934567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2051,6 +2057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &325347106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2186,6 +2193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &400791445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2321,6 +2329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &424328082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2456,6 +2465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &455410300
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2591,6 +2601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &513642974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2915,6 +2926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &532484738
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3050,6 +3062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &534843329
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3116,6 +3129,7 @@ GameObject:
   - component: {fileID: 549823375}
   - component: {fileID: 549823376}
   - component: {fileID: 549823377}
+  - component: {fileID: 549823378}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Manager
@@ -3299,6 +3313,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &549823378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549823371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce54b22ab9aa4fd7aa6029de481dc56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0.54987025, b: 0, a: 1}
+  - {r: 1, g: 0.87315077, b: 0, a: 1}
+  - {r: 0.32712734, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0.6677432, b: 1, a: 1}
+  - {r: 0, g: 0.12585449, b: 1, a: 1}
+  - {r: 0.41902542, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0.9910693, a: 1}
+  - {r: 0, g: 1, b: 0.9836073, a: 1}
+  - {r: 0.5126753, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.8998499, a: 1}
 --- !u!1 &612437405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3335,7 +3373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 412.96, y: -132.71}
+  m_AnchoredPosition: {x: 412.95996, y: -132.71002}
   m_SizeDelta: {x: 313.91, y: 115.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &612437407
@@ -3530,6 +3568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &657503014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3665,6 +3704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &661362450
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3800,6 +3840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &664367169
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4079,6 +4120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &689772183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4214,6 +4256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &691665830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4349,6 +4392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &708857846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4484,6 +4528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &732643678
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4619,6 +4664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &768906781
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5044,6 +5090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &863964362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5247,6 +5294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &918046881
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5526,6 +5574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &931336213
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5661,6 +5710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &935785397
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5796,6 +5846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &961484517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6015,6 +6066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1010825602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6150,6 +6202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1026374114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6666,6 +6719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1117418559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6885,6 +6939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1168275957
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7020,6 +7075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1179708104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7155,6 +7211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1251785998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7290,6 +7347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1280114151
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7644,6 +7702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1386236744
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7779,6 +7838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1492294633
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7914,6 +7974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1516426558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8133,6 +8194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1619871490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8412,6 +8474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1674486821
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8679,6 +8742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1692075083
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8814,6 +8878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1696897440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9117,6 +9182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1728476143
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9357,6 +9423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1739363220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9492,6 +9559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1754771164
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9627,6 +9695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1779303414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9846,6 +9915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1817325449
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10189,6 +10259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1918276461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10602,6 +10673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &1988041605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11025,6 +11097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &2066100236
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11160,6 +11233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &2077596493
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11504,6 +11578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &2099715673
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11672,6 +11747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &2106380160
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11807,6 +11883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 549823377}
   _audioClip: {fileID: 8300000, guid: 638c5f477bfa640f4852a4f629eee545, type: 3}
+  _colorManager: {fileID: 549823378}
 --- !u!212 &2108302133
 SpriteRenderer:
   m_ObjectHideFlags: 0
