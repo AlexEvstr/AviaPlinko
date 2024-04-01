@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MenuPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _shopPanel;
     [SerializeField] private GameObject _shopPlanePanel;
     [SerializeField] private GameObject _shopBallPanel;
+    [SerializeField] private TMP_Text _scoreText;
 
     private void Start()
     {
@@ -50,5 +52,10 @@ public class MenuPanel : MonoBehaviour
     private void OnDestroy()
     {
         PlayerPrefs.SetInt("score", GameData.score);
+    }
+
+    private void Update()
+    {
+        _scoreText.text = GameData.score.ToString();
     }
 }

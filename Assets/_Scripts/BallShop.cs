@@ -22,6 +22,7 @@ public class BallShop : MonoBehaviour
 
     public void ClickBall()
     {
+        Debug.Log(transform.childCount);
         if (!_owned.activeInHierarchy)
         {
             GameData.score -= _priceSum;

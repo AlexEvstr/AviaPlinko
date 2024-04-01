@@ -5,6 +5,6 @@ public class Score : MonoBehaviour
 {
     private void Update()
     {
-        gameObject.GetComponent<TMP_Text>().text = $"Points: \n {GameData.score}";
+        gameObject.GetComponent<TMP_Text>().text = GameData.score.ToString();
     }
 }
