@@ -17,8 +17,8 @@ public class BounceBehavior : MonoBehaviour
     private IEnumerator ChangeSize()
     {
         _audioSource.PlayOneShot(_audioClip);
-        transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
+        transform.localScale = new Vector3(0.35f, 0.35f, 0.35f);
         yield return new WaitForSeconds(0.1f);
-        transform.localScale = new Vector3(0.15f, 0.15f, 0.15f);
+        transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
     }
 }

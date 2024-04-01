@@ -14,12 +14,18 @@ public class EndTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        string countOfPoints = collision.gameObject.tag;
+        string countOfPoints = collision.gameObject.name;
         if (countOfPoints == "0")
         {
             Destroy(gameObject);
             _audioSource.PlayOneShot(_endClipBad);
 
+        }
+        else if (countOfPoints == "-10")
+        {
+            Destroy(gameObject);
+            _audioSource.PlayOneShot(_endClipBad);
+            GameData.score -= 10;
         }
         else if (countOfPoints == "5")
         {
@@ -51,11 +57,17 @@ public class EndTrigger : MonoBehaviour
             Destroy(gameObject);
             GameData.score += 100;
         }
+        else if (countOfPoints == "1000")
+        {
+            _audioSource.PlayOneShot(_endClip);
+            Destroy(gameObject);
+            GameData.score += 1000;
+        }
     }
 
     private void Update()
     {
-        if (transform.position.x < -3 || transform.position.x > 3 || transform.position.y < -7)
+        if (transform.position.y < -7)
         {
             _audioSource.PlayOneShot(_endClipBad);
             Destroy(gameObject);
