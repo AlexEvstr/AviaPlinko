@@ -8,7 +8,7 @@ public class RocketDetector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("LeftEnemy") || collision.gameObject.CompareTag("RightEnemy"))
         {
             
             GameObject newExplosion = Instantiate(_explosion);

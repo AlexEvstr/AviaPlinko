@@ -5,9 +5,11 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {
     [SerializeField] private GameObject[] _enemies;
+    [SerializeField] private GameObject _tutorial;
 
-    private void Start()
+    public void StartOnTutorial()
     {
+        _tutorial.SetActive(false);
         StartCoroutine(SpawnEnemy());
     }
 
@@ -20,6 +22,4 @@ public class EnemySpawn : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(1, 3));
         }
     }
-
-
 }
