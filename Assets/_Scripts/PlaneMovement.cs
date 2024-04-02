@@ -18,6 +18,14 @@ public class PlaneMovement : MonoBehaviour
 
     private void ChangeDirection()
     {
+        if (gameObject.GetComponent<SpriteRenderer>().flipX == true)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }
         _speed = -_speed;
     }
 }
