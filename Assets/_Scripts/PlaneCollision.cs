@@ -20,7 +20,6 @@ public class PlaneCollision : MonoBehaviour
             GameObject minus10 = Instantiate(_minus10Gems);
             minus10.transform.position = new Vector2(-4.5f, 3);
             Destroy(minus10, 1);
-
             GameData.score -= 10;
         }
         else if (collision.gameObject.CompareTag("RightEnemy"))
@@ -33,8 +32,8 @@ public class PlaneCollision : MonoBehaviour
             GameObject minus10 = Instantiate(_minus10Gems);
             minus10.transform.position = new Vector2(4.5f, 3);
             Destroy(minus10, 1);
-
             GameData.score -= 10;
         }
+        
     }
 }
